@@ -1,0 +1,84 @@
+
+.main-box{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 600px;
+  width: 300px;
+  background-color: rgb(218, 57, 43);
+  font-family: 'Chelsea Market', cursive;
+  border-radius: 100px;
+  padding-right: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.project-label, .price-label{
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+.project-label{
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+
+
+.box-style{
+  margin-top: 80px;
+  margin-left: 40%;
+}
+
+.body-style{
+  background-image: linear-gradient(to right, rgb(93, 85, 234) , rgb(223, 134, 18));
+}
+
+.token-photo{
+  flex-direction: row;
+  height: 200px;
+  width: 200px;
+  padding-left: 15px;
+  padding-top:15px;
+  
+}
+
+.surround-box{
+  background-color: white;
+  width: 230px;
+  height: 230px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+
+.sol-photo{
+  position: relative;
+  bottom:200px;
+  margin-left: 20px;
+  width: 20px;
+  height:20px;
+  
+}
+
+.wallet-connect{
+  width: 200px;
+  height: 50px;
+  position: relative;
+  left: 1300px;
+  font-family: 'Chelsea Market', cursive;
+  color: white;
+  background-color: rgb(218, 57, 43);
+  bottom: 650px;
+  text-decoration: underline;
+  font-size: 16px;
+}
+
+.wallet-connect:hover{
+  cursor: pointer;
+
+}
+
+.wallet-connect:active{
+  opacity:0.7;
+}
